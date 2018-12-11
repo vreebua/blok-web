@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica Neue;
+}
+
+#logo {
+    width: 970px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.een {
+    background-color: #fbdf73;
+    margin: 0;
+    padding: 150px 0;
+    text-align: center;
+}
+
+h4 {
+    background-color: lightgrey;
+    border: solid;
+    border-color: white;
+    display: inline;
+    float: right;
+    font-size: 35px;
+    margin: 10px 0;
+    padding: 5px 50px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    display: inline;
+    font-size: 14px;
+}
+
+.keuze {
+    border: solid;
+    border-color: #9e1982;
+    padding: 15px 40px;
+    text-align: left;
+}
+
+#pijl {
+    width: 32px;
+}
+
+#filter {
+    display: inline;
+    margin: 0 0 0 300px;
+    padding: 0;
+    width: 60px;
+}
+
+.twee {
+    background-color: #9e1982;
+    color: white;
+    margin: 30px 50px;
+    padding: 80px
+}
