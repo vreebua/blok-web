@@ -1,0 +1,418 @@
+@media (max-width: 500px) {
+
+    body {
+        display: grid;
+        font-family: Helvetica Neue;
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+        padding: 1em;
+    }
+
+    .bovenlijnmenu {
+        align-items: center;
+        border-bottom: thin solid #aac1c3;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+    }
+
+    .menu {
+        height: 2.5em;
+    }
+
+    .logo {
+        height: 6em;
+    }
+
+    .taalenzoek {
+        height: 3em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    select {
+        background-color: #8d2a7f;
+        color: white;
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+
+    .imgmobiel {
+        width: 100%
+    }
+
+    .tabletklumperbeven {
+        display: none;
+    }
+
+    .laptopklumperbeven {
+        display: none;
+    }
+
+    .tekstklumperbeven {
+        color: white;
+        margin-top: -33em;
+        padding: 2em;
+        position: relative;
+    }
+
+    .slider-trigger {
+        float: right;
+        height: 3em;
+        margin-top: -4.5em;
+    }
+
+    .sterwitachtergrond {
+        height: 1em;
+    }
+
+    .reactie {
+        padding: 1em 2em;
+    }
+
+    .pgrijs {
+        border-bottom: solid #9d1c80;
+        color: #9a9999;
+        font-size: 11pt;
+        padding-bottom: 1em;
+    }
+
+    p {
+        font-size: 14pt;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+
+    body {
+        display: grid;
+        font-family: Helvetica Neue;
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr;
+        padding: 1em;
+    }
+
+    header {
+        grid-column: 1/3;
+    }
+
+    .bovenlijnmenu {
+        align-items: center;
+        border-bottom: thin solid #aac1c3;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+    }
+
+    .sorterenn {
+        grid-column: 1/3;
+    }
+
+    .sorterennn {
+        grid-column: 1/3;
+    }
+
+    .menu {
+        height: 3em;
+    }
+
+    .logo {
+        height: 7em;
+    }
+
+    .taalenzoek {
+        height: 3.5em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    select {
+        background-color: #8d2a7f;
+        color: white;
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    .imgtablet {
+        grid-column: 1/3;
+        width: 100%;
+    }
+
+    .tabletklumperbeven {
+        grid-column: 1/3;
+    }
+
+    .mobielklumperbeven {
+        display: none;
+    }
+
+    .laptopklumperbeven {
+        display: none;
+    }
+
+    .slider-trigger {
+        float: right;
+        height: 3em;
+        margin-top: -4em;
+    }
+
+    .sterwitachtergrond {
+        height: 1.5em;
+    }
+
+    .reactie {
+        padding: 1em 2em;
+    }
+
+    .pgrijs {
+        border-bottom: solid #9d1c80;
+        color: #9a9999;
+        font-size: 12pt;
+        padding-bottom: 1em;
+    }
+
+    p {
+        font-size: 15pt;
+    }
+}
+
+@media (min-width: 900px) {
+
+    body {
+        display: grid;
+        font-family: Helvetica Neue;
+        grid-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1em;
+        row-template-columns: auto;
+    }
+
+    header {
+        grid-column: 1/4;
+    }
+
+    .bovenlijnmenu {
+        align-items: center;
+        border-bottom: thin solid #aac1c3;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+
+    }
+
+    .menu {
+        height: 3em;
+        visibility: hidden;
+    }
+
+    .logo {
+        height: 9em;
+    }
+
+    .taalenzoek {
+        height: 4em;
+    }
+
+    nav {
+        color: #aac1c3;
+        letter-spacing: 0.3em;
+        text-align: center;
+        word-spacing: 6em;
+    }
+
+    select {
+        background-color: #8d2a7f;
+        color: white;
+        margin-bottom: 2em;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .imglaptop {
+        width: 100%
+    }
+
+    .laptopklumperbeven {
+        grid-column: 1/4;
+    }
+
+    .mobielklumperbeven {
+        display: none;
+    }
+
+    .tabletklumperbeven {
+        display: none;
+    }
+
+    .sorterennn {
+        grid-column: 1/4;
+    }
+
+    .slider-trigger {
+        float: right;
+        height: 3em;
+        margin-top: -4.5em;
+    }
+
+    .sterwitachtergrond {
+        height: 1.5em;
+    }
+
+    .reactie {
+        padding: 1em 2em;
+    }
+
+    .pgrijs {
+        border-bottom: solid #9d1c80;
+        color: #9a9999;
+        font-size: 13pt;
+        padding-bottom: 1em;
+    }
+
+    p {
+        font-size: 16pt;
+    }
+
+}
+
+button {
+  float: right;
+  margin-top: -6em;
+}
+
+.notification {
+    display: inline-block;
+    position: relative;
+    font-size: 1.5em;
+    float: right;
+}
+
+.notification:after {
+    font-size: 0.7em;
+    font-weight: 600;
+    padding: 5px 8px;
+    border-radius: 60px;
+    background: #fade73;
+    content: attr(data-count);
+}
+
+
+
+
+horizontal squares{
+  box-sizing:border-box;
+}
+
+.horizontal{
+  background-color: black;
+  color: white;
+  margin-top: 65em;
+  max-height:21em;
+  overflow-x:hidden;
+  position: absolute;
+  transform:rotate(-90deg) translateY(-80px);
+  transform-origin:right top;
+  width: 22em;
+}
+.horizontal > div{
+  display:block;
+  transform:rotate(90deg);
+  transform-origin: right top;
+    
+}
+
+.squares{
+  padding: 20em 0 0 0;
+}
+
+.squares > div{
+  font-size: 12pt;
+  height:20em;
+  margin:10px;
+  width:20em;
+}
+
+.squares:hover{
+  border-width: 5px;
+  font-weight:700;
+  
+}
+
+
+
+.slider-container .slider-parent {
+    top: 20em;
+    height: 20em;
+    padding: 0em 5em;
+    background: #9d1c80;
+    position: absolute;
+    opacity: 0;
+    transition: .2s all linear;
+ }
+   .slider-container .slider-parent.active {
+      visibility: visible;
+      pointer-events: inherit;
+      opacity: 1;
+ }
+
+form {
+  text-align: center;
+  font-family: Helvetica Neue;
+}
+
+input {
+  width: 25em;
+  padding: 0.5em;
+  border: solid 1px #CCC;
+  border-radius: 0.5em;
+}
+
+.form-item {
+  padding: 1em;
+}
+
+
+.form-item:hover .hint,
+input:focus div{
+  opacity: 1;
+}
+
+
+.hint {
+  opacity: 0;
+  background: #fade73;
+  position: absolute;
+ top: 1em;
+  right: -1px;
+  padding: 0.5em;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
